@@ -8,5 +8,29 @@
     android:background="@drawable/splash_bg"
     tools:context="kein.trekitstudy.SplashActivity">
 
+    <ImageView
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/map"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        android:layout_width="match_parent"
+        android:layout_height="256dp"/>
+
+
+    <ImageView
+        android:id="@+id/ivIcon"
+        android:src="@drawable/icon"
+        android:layout_marginTop="139.7dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="85.3dp"
+        android:layout_height="85.3dp"/>
+
+    <ImageView
+        android:layout_below="@id/ivIcon"
+        android:src="@drawable/trek_it"
+        android:layout_marginTop="16.3dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
 
 </RelativeLayout>
